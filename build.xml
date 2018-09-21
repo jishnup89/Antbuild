@@ -1,6 +1,6 @@
 <project name="My Project" default="help" basedir=".">
   <!-- Define the properties used by the build -->
-  <property name="app.name"      value="sample"/>
+  <property name="app.name"      value="hello"/>
   <property name="tcserver.home" value="\usr\share\apache-tomcat-8.5.34" />
   <property name="work.home"    value="${basedir}/work"/>
   <property name="dist.home"     value="${basedir}/dist"/>
@@ -44,7 +44,7 @@
           description="Create working dirs and copy static files to work dir">
     <mkdir  dir="${dist.home}"/>
     <mkdir  dir="${work.home}/WEB-INF/classes"/>
-     Copy static HTML and JSP files to work dir 
+    <!-- Copy static HTML and JSP files to work dir -->
     <copy todir="${work.home}">
       <fileset dir="${web.home}"/>
     </copy>
@@ -54,7 +54,7 @@
           description="Compile Java sources and copy to WEB-INF/classes dir">
     <javac srcdir="${src.home}"
           destdir="${work.home}/WEB-INF/classes">
-        <classpath refid="compile.classpath"/> 
+        <classpath refid="compile.classpath"/>
     </javac>
     <copy  todir="${work.home}/WEB-INF/classes">
       <fileset dir="${src.home}" excludes="**/*.java"/>
