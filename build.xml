@@ -1,7 +1,7 @@
 <project name="My Project" default="help" basedir=".">
   <!-- Define the properties used by the build -->
   <property name="app.name"      value="sample"/>
-  <property name="tcserver.home" value="usr\share\apache-tomcat-8.5.34" />
+  <property name="tcserver.home" value="\usr\share\apache-tomcat-8.5.34" />
   <property name="work.home"    value="${basedir}/work"/>
   <property name="dist.home"     value="${basedir}/dist"/>
   <property name="src.home"      value="${basedir}/src"/>
