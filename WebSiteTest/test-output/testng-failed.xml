@@ -5,7 +5,6 @@
     <classes>
       <class name="example.Newtest">
         <methods>
-          <include name="aft"/>
           <include name="test"/>
           <include name="init"/>
         </methods>

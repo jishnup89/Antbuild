@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.858 s <<< FAILURE! - in TestSuite
+aft(example.Newtest)  Time elapsed: 12.823 s  <<< FAILURE!
+org.openqa.selenium.remote.SessionNotFoundException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'DESKTOP-F4Q0HH1', ip: '192.168.1.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at example.Newtest.aft(Newtest.java:59)
+

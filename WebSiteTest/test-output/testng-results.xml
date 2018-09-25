@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28585" started-at="2018-09-24T08:27:40Z" finished-at="2018-09-24T08:28:08Z">
+  <suite name="Default suite" duration-ms="27509" started-at="2018-09-25T04:50:16Z" finished-at="2018-09-25T04:50:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28585" started-at="2018-09-24T08:27:40Z" finished-at="2018-09-24T08:28:08Z">
+    <test name="Default test" duration-ms="27509" started-at="2018-09-25T04:50:16Z" finished-at="2018-09-25T04:50:44Z">
       <class name="example.Newtest">
-        <test-method status="PASS" signature="init()[pri:0, instance:example.Newtest@cb644e]" name="init" is-config="true" duration-ms="5858" started-at="2018-09-24T13:57:40Z" finished-at="2018-09-24T13:57:46Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:example.Newtest@4dfa3a9d]" name="init" is-config="true" duration-ms="5114" started-at="2018-09-25T10:20:16Z" finished-at="2018-09-25T10:20:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="test()[pri:0, instance:example.Newtest@cb644e]" name="test" duration-ms="10363" started-at="2018-09-24T13:57:46Z" finished-at="2018-09-24T13:57:56Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:example.Newtest@4dfa3a9d]" name="test" duration-ms="11805" started-at="2018-09-25T10:20:21Z" finished-at="2018-09-25T10:20:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="FAIL" signature="aft()[pri:0, instance:example.Newtest@cb644e]" name="aft" is-config="true" duration-ms="0" started-at="2018-09-24T13:57:56Z" finished-at="2018-09-24T13:57:56Z">
+        <test-method status="FAIL" signature="aft()[pri:0, instance:example.Newtest@4dfa3a9d]" name="aft" is-config="true" duration-ms="0" started-at="2018-09-25T10:20:33Z" finished-at="2018-09-25T10:20:33Z">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[Session ID is null. Using WebDriver after calling quit()?
@@ -33,7 +33,7 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:438)
-	at example.Newtest.aft(Newtest.java:61)
+	at example.Newtest.aft(Newtest.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -63,6 +63,6 @@ Driver info: driver.version: RemoteWebDriver
           </reporter-output>
         </test-method> <!-- aft -->
       </class> <!-- example.Newtest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

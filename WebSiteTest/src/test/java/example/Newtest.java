@@ -3,22 +3,20 @@ package example;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.GeckoDriverService;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import com.google.common.base.Verify;
 
 public class Newtest {
 	public WebDriver driver ;
 	@BeforeTest
 	public void init() throws InterruptedException
 	{
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\dell\\Downloads\\geckodriver.exe" );
-		 driver=new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\dell\\Downloads\\chromedriver_win32\\chromedriver.exe" );
+		 driver=new ChromeDriver();
 		//Thread.sleep(3000);
 		
 		
