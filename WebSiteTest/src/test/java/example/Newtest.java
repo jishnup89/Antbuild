@@ -14,7 +14,7 @@ public class Newtest {
 	@BeforeTest
 	public void init() throws InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\dell\\Downloads\\chromedriver_win32\\chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver" );
 		 driver=new ChromeDriver();
 		//Thread.sleep(3000);
 		
